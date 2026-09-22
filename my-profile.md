@@ -10,11 +10,11 @@
 
 [我拍攝的靈感泉源:Flickr](https://www.flickr.com/)
 
-![風景或頭像圖](https://picsum.photos/400/250)
+<img src="shuaiche.jpg" width="200" alt="我高中同學摔車的英姿">
 
 > 努力不一定會成功，但不努力一定很輕鬆。
 
-## 合作經驗
+## 工作經驗
 
 | 年份 | 夥伴 | 說明 |
 | :--- | :--- | :--- |
