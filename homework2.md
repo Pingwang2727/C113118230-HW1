@@ -2,7 +2,7 @@
 
 ## 一、任務基本資料
 
-| 任務 | 說明 | 用時(天數) | 前置任務 |
+| 任務 | 任務說明 | 用時(天數) | 前置任務 |
 |---|---|---:|---|
 | 1 | 研擬計畫 | 1 | - |
 | 2 | 任務分配 | 4 | 1 |
@@ -46,7 +46,7 @@ flowchart LR
     I --> K
     J --> K
 
-    classDef critical fill:#ffffbb,stroke:#ffff00,stroke-width:3px,color:#000000;
+    classDef critical fill:#ffffbb,stroke:#000000,stroke-width:3px,color:#000000;
     class A,B,D,F,I,K critical;
 
     linkStyle 0 stroke:#ffff00,stroke-width:3px;
@@ -58,9 +58,9 @@ flowchart LR
 
 > 備註：黃色節點/黃色箭頭代表關鍵路徑。
 
-## 三、各階段起訖時間
+## 三、各階段開始與結束時間
 
-| 任務 | 說明 | 開始時間 | 結束時間 |
+| 任務 | 任務說明 | 開始時間 | 結束時間 |
 |---|---|---:|---:|
 | 1 | 研擬計畫 | 第1天 | 第1天 |
 | 2 | 任務分配 | 第2天 | 第5天 |
@@ -74,7 +74,7 @@ flowchart LR
 | 10 | 使用者訓練 | 第54天 | 第73天 |
 | 11 | 使用者測試 | 第131天 | 第155天 |
 
-## 四、甘特圖
+## 四、專案甘特圖
 
 ```mermaid
 gantt
