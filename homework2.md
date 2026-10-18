@@ -46,7 +46,7 @@ flowchart LR
     I --> K
     J --> K
 
-    classDef critical fill:#FFC8B4,stroke:#000000,stroke-width:3px,color:#000000;
+    classDef critical fill:#FFC8B4,stroke:#FF0000,stroke-width:3px,color:#000000;
     class A,B,D,F,I,K critical;
 
     linkStyle 0 stroke:#FF0000,stroke-width:3px;
@@ -55,7 +55,7 @@ flowchart LR
     linkStyle 7 stroke:#FF0000,stroke-width:3px;
     linkStyle 10 stroke:#FF0000,stroke-width:3px;
 
- classDef acceed fill:#99FFFF,stroke:#000000,stroke-width:3px,color:#000000;
+ classDef acceed fill:#99FFFF,stroke:#0066FF,stroke-width:3px,color:#000000;
     class C,E,G,H,J acceed;
 
     linkStyle 1 stroke:##0066FF,stroke-width:3px;
