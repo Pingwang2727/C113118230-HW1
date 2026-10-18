@@ -58,11 +58,11 @@ flowchart LR
  classDef acceed fill:#99FFFF,stroke:#000000,stroke-width:3px,color:#000000;
     class C,E,G,H,J acceed;
 
-    linkStyle 0 stroke:##0066FF,stroke-width:3px;
-    linkStyle 2 stroke:##0066FF,stroke-width:3px;
-    linkStyle 4 stroke:##0066FF,stroke-width:3px;
-    linkStyle 7 stroke:##0066FF,stroke-width:3px;
-    linkStyle 10 stroke:##0066FF,stroke-width:3px;
+    linkStyle 1 stroke:##0066FF,stroke-width:3px;
+    linkStyle 3 stroke:##0066FF,stroke-width:3px;
+    linkStyle 5 stroke:##0066FF,stroke-width:3px;
+    linkStyle 8 stroke:##0066FF,stroke-width:3px;
+    linkStyle 9 stroke:##0066FF,stroke-width:3px;
 ```
 
 > 備註：紅色節點代表關鍵路徑，藍色節點代表非關鍵路徑。
