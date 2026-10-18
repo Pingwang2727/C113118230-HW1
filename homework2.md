@@ -55,8 +55,8 @@ flowchart LR
     linkStyle 7 stroke:#FF0000,stroke-width:3px;
     linkStyle 10 stroke:#FF0000,stroke-width:3px;
 
- classDef critical fill:#99FFFF,stroke:#000000,stroke-width:3px,color:#000000;
-    class C,E,G,H,J critical;
+ classDef acceed fill:#99FFFF,stroke:#000000,stroke-width:3px,color:#000000;
+    class C,E,G,H,J acceed;
 
     linkStyle 0 stroke:##0066FF,stroke-width:3px;
     linkStyle 2 stroke:##0066FF,stroke-width:3px;
