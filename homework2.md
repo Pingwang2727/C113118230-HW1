@@ -46,17 +46,26 @@ flowchart LR
     I --> K
     J --> K
 
-    classDef critical fill:#ffffbb,stroke:#000000,stroke-width:3px,color:#000000;
+    classDef critical fill:#FFC8B4,stroke:#000000,stroke-width:3px,color:#000000;
     class A,B,D,F,I,K critical;
 
-    linkStyle 0 stroke:#ffff00,stroke-width:3px;
-    linkStyle 2 stroke:#ffff00,stroke-width:3px;
-    linkStyle 4 stroke:#ffff00,stroke-width:3px;
-    linkStyle 7 stroke:#ffff00,stroke-width:3px;
-    linkStyle 10 stroke:#ffff00,stroke-width:3px;
+    linkStyle 0 stroke:#FF0000,stroke-width:3px;
+    linkStyle 2 stroke:#FF0000,stroke-width:3px;
+    linkStyle 4 stroke:#FF0000,stroke-width:3px;
+    linkStyle 7 stroke:#FF0000,stroke-width:3px;
+    linkStyle 10 stroke:#FF0000,stroke-width:3px;
+
+ classDef critical fill:#99FFFF,stroke:#000000,stroke-width:3px,color:#000000;
+    class C,E,G,H,J critical;
+
+    linkStyle 0 stroke:##0066FF,stroke-width:3px;
+    linkStyle 2 stroke:##0066FF,stroke-width:3px;
+    linkStyle 4 stroke:##0066FF,stroke-width:3px;
+    linkStyle 7 stroke:##0066FF,stroke-width:3px;
+    linkStyle 10 stroke:##0066FF,stroke-width:3px;
 ```
 
-> 備註：黃色節點/黃色箭頭代表關鍵路徑。
+> 備註：紅色節點代表關鍵路徑，藍色節點代表非關鍵路徑。
 
 ## 三、各階段開始與結束時間
 
