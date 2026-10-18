@@ -21,17 +21,17 @@
 ```mermaid
 flowchart LR
 
-    A["1 研擬計畫<br/>1天"]
-    B["2 任務分配<br/>4天"]
-    C["3 取得硬體<br/>17天"]
-    D["4 程式開發<br/>70天"]
-    E["5 安裝硬體<br/>10天"]
-    F["6 程式測試<br/>30天"]
-    G["7 撰寫使用手冊<br/>25天"]
-    H["8 轉換檔案<br/>20天"]
-    I["9 系統測試<br/>25天"]
-    J["10 使用者訓練<br/>20天"]
-    K["11 使用者測試<br/>25天"]
+    A["1 研擬計畫<br/>(總用時1天)"]
+    B["2 任務分配<br/>(總用時4天)"]
+    C["3 取得硬體<br/>(總用時17天)"]
+    D["4 程式開發<br/>(總用時70天)"]
+    E["5 安裝硬體<br/>(總用時10天)"]
+    F["6 程式測試<br/>(總用時30天)"]
+    G["7 撰寫使用手冊<br/>(總用時25天)"]
+    H["8 轉換檔案<br/>(總用時20天)"]
+    I["9 系統測試<br/>(總用時25天)"]
+    J["10 使用者訓練<br/>(總用時20天)"]
+    K["11 使用者測試<br/>(總用時25天)"]
 
     A --> B
     A --> C
@@ -46,19 +46,17 @@ flowchart LR
     I --> K
     J --> K
 
-    classDef critical fill:#ffcccc,stroke:#ff0000,stroke-width:3px,color:#000000;
+    classDef critical fill:#ffffbb,stroke:#ffff00,stroke-width:3px,color:#000000;
     class A,B,D,F,I,K critical;
 
-    linkStyle 0 stroke:#ff0000,stroke-width:3px;
-    linkStyle 2 stroke:#ff0000,stroke-width:3px;
-    linkStyle 4 stroke:#ff0000,stroke-width:3px;
-    linkStyle 7 stroke:#ff0000,stroke-width:3px;
-    linkStyle 10 stroke:#ff0000,stroke-width:3px;
+    linkStyle 0 stroke:#ffff00,stroke-width:3px;
+    linkStyle 2 stroke:#ffff00,stroke-width:3px;
+    linkStyle 4 stroke:#ffff00,stroke-width:3px;
+    linkStyle 7 stroke:#ffff00,stroke-width:3px;
+    linkStyle 10 stroke:#ffff00,stroke-width:3px;
 ```
 
-紅色節點及紅色箭頭代表本專案的關鍵路徑：
-
-**1 → 2 → 4 → 6 → 9 → 11**
+> 備註：黃色節點/黃色箭頭代表關鍵路徑。
 
 ## 三、各階段起訖時間
 
