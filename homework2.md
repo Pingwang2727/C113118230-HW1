@@ -61,6 +61,7 @@ flowchart LR
     linkStyle 1 stroke:##0066FF,stroke-width:3px;
     linkStyle 3 stroke:##0066FF,stroke-width:3px;
     linkStyle 5 stroke:##0066FF,stroke-width:3px;
+    linkStyle 6 stroke:##0066FF,stroke-width:3px;
     linkStyle 8 stroke:##0066FF,stroke-width:3px;
     linkStyle 9 stroke:##0066FF,stroke-width:3px;
     linkStyle 11 stroke:##0066FF,stroke-width:3px;
